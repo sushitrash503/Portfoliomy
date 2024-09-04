@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  height: 100%;
+  --color: #cec8c8;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+.container {
+    position: relative;
+}
+
+.img-banner {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.img-container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 6px 6px 0px 3px #000000; 
+box-shadow: 6px 6px 0px 3px #000000;
+}
+.textoinicio{
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+    padding: 35px;
+}
+.textoinicio h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+.textoinicio p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: -20px;
+    font-style: normal;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    align-items: center;
+    gap: 9px; /* Espacio entre los botones */
+    flex-wrap: wrap; /* Permite que los botones se mantengan en una fila */
+}
+
+button {
+    background: #219ebc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+    width: 150px; /* Fija el ancho del botón */
+    height: 60px; /* Fija la altura del botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.proyecto {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+  --color: #030202;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    font-family: "Nerko One", cursive;
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
+
+.proyecto p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.proyecto .lenguajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.lenguaje {
+    background: #219ebc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+
+
+  

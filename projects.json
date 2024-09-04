@@ -1,0 +1,9 @@
+[
+    {
+        "title": "StardewAPP",
+        "description": "Proyecto en el cual tiene un TODOAPP y información de los personajes del juego.",
+        "image": "/img/proyecto1.png",
+        "languages": ["HTML", "CSS", "JavaScript"],
+        "link": "https://enlace-al-proyecto1.com"
+    }
+]
